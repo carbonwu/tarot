@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>塔罗牌占卜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>塔罗牌占卜</h1>
+    <div class="question-section">
+      <label class="question-label" for="question-input">请输入你想占卜的问题</label>
+      <input type="text" id="question-input" placeholder="例如：我现在的感情状况如何？" maxlength="100">
+      <button id="draw-button">抽取塔罗牌</button>
+    </div>
+    <div id="cards-container"></div>
+    <div id="ai-container"></div>
+  </div>
+  <script src="tarot-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
